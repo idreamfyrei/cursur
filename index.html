@@ -1,14 +1,197 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="./resource/favi">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/x-icon" href="./resource/CUBE_2D_DARK.svg" />
+    <link rel="stylesheet" href="style.css" />
     <title>Cursur</title>
-</head>
-<body>
-    <nav>
-        
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav class="nav">
+      <div class="nav_container">
+        <!-- Logo -->
+        <div class="nav_logo">
+          <a href="/" class="nav-logo">
+            <img src="./resource/CUBE_2D_DARK.svg" alt="Cursur Logo" />
+            <img src="./resource/WORDMARK_DARK.svg" alt="Cursur" width="94px" />
+          </a>
+        </div>
+
+        <!-- Menu -->
+        <div class="nav_menu">
+          <a href="#features" class="nav_menu_item">Features</a>
+          <a href="#enterprise" class="nav_menu_item">Enterprise</a>
+          <a href="#pricing" class="nav_menu_item">Pricing</a>
+
+          <!-- Resources Dropdown -->
+          <div class="nav_dropdown">
+            <span class="nav_menu_item">Resources</span>
+
+            <div class="dropdown_menu">
+              <div class="dropdown_column">
+                <a href="#">Changelog</a>
+                <a href="#">Docs</a>
+                <a href="#">Learn</a>
+                <a href="#">Forum</a>
+              </div>
+              <div class="dropdown_column">
+                <a href="#">Blog</a>
+                <a href="#">Community</a>
+                <a href="#">Workshops</a>
+                <a href="#">Careers</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Actions -->
+        <div class="nav_actions">
+          <a href="#signin" class="secondary_button">Sign in</a>
+          <a href="#download" class="primary_button">Download</a>
+        </div>
+      </div>
     </nav>
-</body>
+
+    <main>
+      <!-- Hero Section -->
+      <section class="hero">
+        <div class="hero_container">
+          <div class="hero_inner">
+            <div class="hero_text">
+              <h1>
+                Built to make you extraordinarily productive,<br />
+                Cursor is the best way to code with AI.
+              </h1>
+              <a href="#download" class="hero_button">Download for macOS ⤓</a>
+            </div>
+          </div>
+          <div class="hero_media">
+            <img src="resource/Section1.png" alt="hero_image" />
+          </div>
+        </div>
+      </section>
+
+      <!-- Feature section -->
+      <section>
+        <div class="feature_section">
+          <div class="feature_text">
+            <p>Trusted every day by millions of professional developers.</p>
+          </div>
+          <div class="feature_logo">
+            <div class="feature_logo_item">
+              <img src="resource/logos/Stripe.svg" alt="Stripe" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/OpenAI.svg" alt="OpenAI" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/Linear.svg" alt="Linear" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/Datadog.svg" alt="Datadog" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/Nvidia.svg" alt="Nvidia" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/Figma.svg" alt="Figma" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/ramp.svg" alt="Ramp" />
+            </div>
+            <div class="feature_logo_item">
+              <img src="resource/logos/Adobe.svg" alt="Adobe" />
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- About the Product Section -->
+      <!-- Section 1 -->
+      <section class="product_section">
+        <div class="section1_container">
+          <div class="section1">
+            <div class="section1_text">
+              <h3>Agent turns ideas into code</h3>
+              <p>
+                A human-AI programmer, orders of magnitude more effective than
+                any developer alone.
+              </p>
+              <span>Learn about Agent →</span>
+            </div>
+            <div class="section1_media">
+              <img
+                src="resource/Section2.png"
+                alt="Agent turns ideas into code"
+              />
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 2 -->
+
+        <div class="section2_container">
+          <div class="section2">
+            <div class="section2_media_container">
+              <div class="section2_media">
+                <video
+                  class="video-display"
+                  loop
+                  muted
+                  autoplay
+                  poster="resource/Section3.png"
+                >
+                  <source src="resource/section3.mp4" type="video/mp4" />
+                  <!-- Fallback Image if video is not supported -->
+                  <img
+                    src="resource/Section3.png"
+                    alt="Video Screenshot"
+                    class="video-fallback-img"
+                  />
+                  <!-- Fallback Text for older browsers -->
+                  <p>
+                    Your browser does not support the video tag. Please view the
+                    screenshot instead.
+                  </p>
+                </video>
+              </div>
+            </div>
+            <div class="section2_text">
+              <h3>Magically accurate autocomplete</h3>
+              <p>
+                Our custom Tab model predicts your next action with striking
+                speed and precision.
+              </p>
+              <span>Learn about Tab →</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Section 3 -->
+
+        <div class="section3_container">
+          <div class="section3">
+            <div class="section3_text">
+              <h3>Everywhere software gets built</h3>
+              <p>
+                Cursor is in GitHub reviewing your PRs, a teammate in Slack, and
+                anywhere else you work.
+              </p>
+              <span>Learn about Cursor's ecosystem →</span>
+            </div>
+            <div class="section3_media">
+              <img
+                src="resource/Section4.png"
+                alt="Everywhere software gets built"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
+
+
