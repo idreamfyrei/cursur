@@ -14,7 +14,7 @@
   rel="stylesheet"
 />
     <link rel="stylesheet" href="style.css" />
-    <title>Cursur</title>
+    <title>Cursor: The best way to code with AI</title>
   </head>
   <body>
     <!-- Navigation Bar -->
@@ -24,13 +24,25 @@
         <div class="nav_logo">
           <a href="/" class="nav-logo">
             <img src="./resource/CUBE_2D_DARK.svg" alt="Cursur Logo" />
-            <img src="./resource/WORDMARK_DARK.svg" alt="Cursur" width="94px" />
+            <img src="./resource/WORDMARK_DARK.svg" alt="Cursur" />
           </a>
         </div>
 
         <!-- Menu -->
         <div class="nav_menu">
-          <a href="#features" class="nav_menu_item">Features</a>
+          <!-- Feature Dropdown -->
+          <div class="nav_dropdown">
+            <span class="nav_menu_item">Feature</span>
+
+            <div class="dropdown_menu">
+              <div class="dropdown_column">
+                <a href="#">Agents</a>
+                <a href="#">Code Review</a>
+                <a href="#">Tab</a>
+                <a href="#">CLI</a>
+              </div>
+            </div>
+          </div>
           <a href="#enterprise" class="nav_menu_item">Enterprise</a>
           <a href="#pricing" class="nav_menu_item">Pricing</a>
 
@@ -394,14 +406,16 @@
         </div>
       </section>
 
-      <section>
-        <div class="career">
-          <div class="career_container">
-            <h3>
-              Cursor is an applied team focused <br />
-              on building the future of coding.
-            </h3>
-            <a href="#" class="career_button">Join Us →</a>
+      <section class="career">
+        <div class="career_container">
+          <div class="career_inner">
+            <div class="career_text">
+              <h3>
+                Cursor is an applied team focused <br />
+                on building the future of coding.
+              </h3>
+              <span>Join Us →</span>
+            </div>
             <div class="career_media">
               <img src="resource/career.png" alt="Career Image" />
             </div>
