@@ -4,7 +4,7 @@ A recreation of the Cursor IDE landing page, showcasing modern web design techni
 
 > Few sections changes on 5th Feb, 2026 after the landing page was completed, so there are chances you might notice a difference in images
 
-## 📋 Table of Contents
+## Table of Contents
 
 - [Sections Recreated](#sections-recreated)
 - [Typography](#typography)
@@ -18,7 +18,7 @@ A recreation of the Cursor IDE landing page, showcasing modern web design techni
 ## Deployment
 To check the live deployment: click [here](https://cursur.vercel.app/)
 
-## 🎨 Sections Recreated
+## Sections Recreated
 
 ### 1. **Navigation Bar**
 - Fixed sticky navigation that stays at the top while scrolling
@@ -111,7 +111,7 @@ Three feature showcases with alternating layouts:
 
 ---
 
-## 🔤 Typography
+## Typography
 
 ### Primary Font
 **CursorGothic** (Custom font loaded via @font-face)
@@ -145,7 +145,7 @@ font-family: "CursorGothic", system-ui, -apple-system, BlinkMacSystemFont, sans-
 
 ---
 
-## 🎨 Color Palette
+## Color Palette
 
 ### Background Colors
 ```css
@@ -186,7 +186,7 @@ font-family: "CursorGothic", system-ui, -apple-system, BlinkMacSystemFont, sans-
 
 ---
 
-## ✨ Design Features
+## Design Features
 
 ### Interactive Elements
 
@@ -225,7 +225,7 @@ font-family: "CursorGothic", system-ui, -apple-system, BlinkMacSystemFont, sans-
 - Card gaps: 0.625rem to 5.625rem
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```
 cursor-landing-page/
@@ -241,7 +241,7 @@ cursor-landing-page/
 
 ---
 
-## 🎯 Key Design Principles
+## Key Design Principles
 
 ### 1. **Consistency**
 - Uniform spacing and rhythm throughout
@@ -267,7 +267,7 @@ cursor-landing-page/
 - Clean, modern aesthetic
 
 
-## 🚀 Getting Started
+## Getting Started
 
 
 1. **Clone or download this repository**
@@ -341,14 +341,36 @@ All links use `href="#"` as placeholders. In production, these would link to act
 ## Screenshots
 
 - Nav and Hero Section
+<img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 47 28 AM" src="https://github.com/user-attachments/assets/4aa2b597-8db8-40f8-af3c-a5ac7bc08d69" />
 
+- Hero Section Consumer Organisations
+<img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 48 00 AM" src="https://github.com/user-attachments/assets/d79df3bb-1c42-4bf4-b1bb-8add86298fa0" />
 
+- Feature section cards
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 49 42 AM" src="https://github.com/user-attachments/assets/8adec0cd-c2f0-4bb6-912d-cf24fabed18d" />
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 50 14 AM" src="https://github.com/user-attachments/assets/15132ef9-c59c-4510-990e-c50f96d25290" />
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 50 33 AM" src="https://github.com/user-attachments/assets/5fa37c6a-bd40-4e8f-bc19-bb47e8732ec6" />
+
+- Testimonials
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 50 55 AM" src="https://github.com/user-attachments/assets/bb288310-96ed-466e-8570-10dd50558bd6" />
+
+- Features CTA
+<img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 51 26 AM" src="https://github.com/user-attachments/assets/fbd540e2-03f8-49dc-b122-35fe61cca124" />
+
+- Changelog and Join us
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 52 24 AM" src="https://github.com/user-attachments/assets/d289b189-0c58-4d9b-9ee6-66afd17187c5" />
+
+- Recent Highlights
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 52 54 AM" src="https://github.com/user-attachments/assets/3e488bea-be87-41f9-9905-32bfdd44dad1" />
+
+- CTA and Footer
+  <img width="1470" height="956" alt="Screenshot 2026-02-07 at 11 53 32 AM" src="https://github.com/user-attachments/assets/9b16ab7b-1e8a-4616-8b5a-e99e61acf41a" />
 
 ---
 ##  Acknowledgments
 
 - Design inspiration: [Cursor.com](https://cursor.com/)
-- Icons: Google Material Symbols
+- Icons: [Google Material Symbols](https://fonts.google.com/icons)
 - Font: Cursor Gothic from Cursor
 ---
 
